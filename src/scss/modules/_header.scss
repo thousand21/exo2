@@ -1,0 +1,35 @@
+header{
+    background-color: rgb(39, 39, 104);
+    display: flex;
+    div{
+        width: 50%;
+        text-align: center;
+        
+
+    }
+    h2{
+        color: white;
+        width: 100%;
+    }
+}
+.headerdroite{
+    display: flex;
+    color: gray;
+    justify-content: center;
+    .signup{
+        display: flex;
+        justify-content: flex-end;
+        max-width: max-content;
+    }
+    .signup:hover{
+        color: red;
+    }
+    .login{
+        display: flex;
+    justify-content: flex-start;
+    max-width: max-content;
+    }
+    .login:hover{
+        color: red;
+    }
+}
